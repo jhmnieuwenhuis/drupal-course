@@ -1,0 +1,19 @@
+uuid: 5094e43d-f5d4-407a-8f1f-6a195fca47dc
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_basic_requirements_before
+field_name: field_basic_requirements_before
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 100
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

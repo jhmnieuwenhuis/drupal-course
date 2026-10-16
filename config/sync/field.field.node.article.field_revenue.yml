@@ -1,0 +1,23 @@
+uuid: e10dc861-e289-4076-a844-b2d17c5a7f6a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_revenue
+    - node.type.article
+id: node.article.field_revenue
+field_name: field_revenue
+entity_type: node
+bundle: article
+label: Revenue
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer
