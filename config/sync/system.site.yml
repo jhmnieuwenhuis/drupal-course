@@ -1,10 +1,10 @@
 _core:
   default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
 langcode: en
-uuid: e77442e6-4937-4f5a-8886-4da694c5701b
-name: 'My Drupal 11 website'
-mail: landschapoost@gmail.com
-slogan: 'Learn Drupal 11'
+uuid: c23c4657-747e-4012-8646-24cb2ebfb725
+name: 'Anytown Farmers Market'
+mail: admin@example.com
+slogan: ''
 page:
   403: ''
   404: ''
