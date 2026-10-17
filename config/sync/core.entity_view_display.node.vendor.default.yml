@@ -1,0 +1,46 @@
+uuid: dfce75d8-1a8b-4a74-9677-2519cea1b10a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.vendor.field_main_image
+    - field.field.node.vendor.field_vendor_url
+    - node.type.vendor
+  module:
+    - image
+    - link
+    - user
+id: node.vendor.default
+targetEntityType: node
+bundle: vendor
+mode: default
+content:
+  field_main_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_vendor_url:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

@@ -1,0 +1,32 @@
+uuid: f9473437-9690-4fb0-b9a5-8b482e3709ad
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.recipe.field_main_image
+    - node.type.recipe
+  module:
+    - image
+    - user
+id: node.recipe.default
+targetEntityType: node
+bundle: recipe
+mode: default
+content:
+  field_main_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }
