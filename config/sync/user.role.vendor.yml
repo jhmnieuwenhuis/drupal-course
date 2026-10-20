@@ -1,0 +1,23 @@
+uuid: 01f08eb4-bfba-4852-92dc-3d64e20d982c
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.restricted_html
+    - node.type.recipe
+    - node.type.vendor
+  module:
+    - contact
+    - filter
+    - node
+id: vendor
+label: Vendor
+weight: 4
+is_admin: false
+permissions:
+  - 'access user contact forms'
+  - 'create recipe content'
+  - 'delete own recipe content'
+  - 'edit own recipe content'
+  - 'edit own vendor content'
+  - 'use text format restricted_html'
