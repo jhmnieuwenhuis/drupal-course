@@ -1,0 +1,23 @@
+uuid: c276ddbb-1bb6-4279-adbb-eb7bbd2b1645
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:0cdb753e-10e3-40d0-9942-baefa0b0d088'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: olivero_hoursandlocationblock
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: 'block_content:0cdb753e-10e3-40d0-9942-baefa0b0d088'
+settings:
+  id: 'block_content:0cdb753e-10e3-40d0-9942-baefa0b0d088'
+  label: 'Hours and location block'
+  label_display: visible
+  provider: block_content
+  view_mode: full
+visibility: {  }
