@@ -1,0 +1,12 @@
+label: Recepten
+display:
+  default:
+    display_title: Recepten
+    display_options:
+      title: Recepten
+      exposed_form:
+        options:
+          submit_button: Opslaan
+          exposed_sorts_label: Sorteren
+          sort_asc_label: Oplopend
+          sort_desc_label: Aflopend

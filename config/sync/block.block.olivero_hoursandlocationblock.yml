@@ -11,7 +11,7 @@ dependencies:
 id: olivero_hoursandlocationblock
 theme: olivero
 region: sidebar
-weight: 0
+weight: -6
 provider: null
 plugin: 'block_content:0cdb753e-10e3-40d0-9942-baefa0b0d088'
 settings:

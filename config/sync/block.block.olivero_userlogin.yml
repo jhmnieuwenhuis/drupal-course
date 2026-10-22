@@ -9,7 +9,7 @@ dependencies:
 id: olivero_userlogin
 theme: olivero
 region: sidebar
-weight: 0
+weight: -5
 provider: null
 plugin: user_login_block
 settings:

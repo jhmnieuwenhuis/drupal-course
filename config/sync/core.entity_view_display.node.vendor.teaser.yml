@@ -32,3 +32,4 @@ content:
 hidden:
   field_main_image: true
   field_vendor_url: true
+  langcode: true

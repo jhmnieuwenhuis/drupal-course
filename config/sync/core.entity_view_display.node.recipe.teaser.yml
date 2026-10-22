@@ -34,3 +34,4 @@ hidden:
   field_ingredients: true
   field_main_image: true
   field_submitted_by: true
+  langcode: true
