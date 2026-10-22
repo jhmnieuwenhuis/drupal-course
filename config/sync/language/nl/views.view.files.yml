@@ -1,0 +1,9 @@
+label: Bestanden
+display:
+  default:
+    display_options:
+      title: Bestanden
+  page_1:
+    display_options:
+      menu:
+        title: Bestanden
