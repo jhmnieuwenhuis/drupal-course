@@ -1,5 +1,5 @@
 uuid: 57683416-2f19-4f5b-9c50-5d2f17d4b4b0
-langcode: en
+langcode: nl
 status: false
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: ZbXunWS_xAvMZXFfinyvClDAb_RCVLt7gAzE3v16E-Q
 id: user.full
-label: 'User account'
+label: Gebruikersaccount
 description: ''
 targetEntityType: user
 cache: true

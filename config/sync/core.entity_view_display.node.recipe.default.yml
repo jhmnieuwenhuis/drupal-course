@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.recipe.field_ingredients
     - field.field.node.recipe.field_main_image
     - field.field.node.recipe.field_submitted_by
+    - field.field.node.recipe.field_test
     - image.style.extra_medium_300x200
     - node.type.recipe
   module:
@@ -51,6 +52,15 @@ content:
       link: true
     third_party_settings: {  }
     weight: 3
+    region: content
+  field_test:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+      link_rel: canonical
+    third_party_settings: {  }
+    weight: 5
     region: content
   links:
     settings: {  }

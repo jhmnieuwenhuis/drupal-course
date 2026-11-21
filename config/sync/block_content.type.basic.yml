@@ -1,10 +1,10 @@
 uuid: 389fce8a-31ff-4b93-8dee-926b7094ac06
-langcode: en
+langcode: nl
 status: true
 dependencies: {  }
 _core:
   default_config_hash: pQP5iQy4SdhAMVcjDUncCfkJmTofnHVtXrsMzx4k6Yk
 id: basic
-label: 'Basic block'
+label: Standaardblok
 revision: false
-description: 'A basic block contains a title and a body.'
+description: 'Een standaardblok bevat een titel en een berichttekst.'

@@ -1,10 +1,10 @@
 uuid: 57902a05-790c-4041-817c-0857ced5d97b
-langcode: en
+langcode: nl
 status: true
 dependencies: {  }
 _core:
   default_config_hash: M_Bh81osDyUQ4wV0GgU_NdBNqkzM87sLxjaCdFj9mnw
 id: account
-label: 'User account menu'
-description: 'Links related to the active user account'
+label: Gebruikersmenu
+description: 'Links gerelateerd aan de actieve gebruikersaccount'
 locked: true

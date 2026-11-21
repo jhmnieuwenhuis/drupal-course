@@ -1,5 +1,5 @@
 uuid: c8344c42-4866-4f25-8390-7c2f14895125
-langcode: en
+langcode: nl
 status: true
 dependencies:
   module:
@@ -8,7 +8,7 @@ dependencies:
 _core:
   default_config_hash: CHAjzSss2YXSSIH7snaB7Zc9GEubxXtV0XE--SpzCB8
 id: comment
-label: Comments
+label: Reacties
 module: comment
 description: 'Find and manage comments.'
 tag: default
@@ -17,11 +17,11 @@ base_field: cid
 display:
   default:
     id: default
-    display_title: Default
+    display_title: Standaard
     display_plugin: default
     position: 0
     display_options:
-      title: Comments
+      title: Reacties
       fields:
         comment_bulk_form:
           id: comment_bulk_form
@@ -73,7 +73,7 @@ display:
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
-          action_title: Action
+          action_title: Actie
           include_exclude: include
           selected_actions:
             - comment_delete_action
@@ -88,7 +88,7 @@ display:
           entity_type: comment
           entity_field: subject
           plugin_id: field
-          label: Subject
+          label: Onderwerp
           exclude: false
           alter:
             alter_text: false
@@ -218,7 +218,7 @@ display:
           entity_type: comment
           entity_field: name
           plugin_id: field
-          label: Author
+          label: Auteur
           exclude: false
           alter:
             alter_text: false
@@ -282,7 +282,7 @@ display:
           entity_type: comment
           entity_field: entity_id
           plugin_id: commented_entity
-          label: 'Posted in'
+          label: 'Geplaatst in'
           exclude: false
           alter:
             alter_text: false
@@ -347,7 +347,7 @@ display:
           entity_type: comment
           entity_field: changed
           plugin_id: field
-          label: Updated
+          label: Bijgewerkt
           exclude: false
           alter:
             alter_text: false
@@ -422,7 +422,7 @@ display:
           admin_label: ''
           entity_type: comment
           plugin_id: entity_operations
-          label: Operations
+          label: Bewerkingen
           exclude: false
           alter:
             alter_text: false
@@ -544,10 +544,10 @@ display:
             last: 'last »'
           expose:
             items_per_page: false
-            items_per_page_label: 'Items per page'
+            items_per_page_label: 'Items per pagina'
             items_per_page_options: '5, 10, 25, 50'
             items_per_page_options_all: false
-            items_per_page_options_all_label: '- All -'
+            items_per_page_options_all_label: '- Alle -'
             offset: false
             offset_label: Offset
           quantity: 9
@@ -556,11 +556,11 @@ display:
         options:
           submit_button: Filter
           reset_button: false
-          reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
+          reset_button_label: 'Opnieuw instellen'
+          exposed_sorts_label: 'Sorteren op'
           expose_sort_order: true
-          sort_asc_label: Asc
-          sort_desc_label: Desc
+          sort_asc_label: Oplopend
+          sort_desc_label: Aflopend
       access:
         type: perm
         options:
@@ -578,7 +578,7 @@ display:
           admin_label: ''
           plugin_id: text_custom
           empty: true
-          content: 'No comments available.'
+          content: 'Geen reacties beschikbaar.'
           tokenize: false
       sorts:
         changed:
@@ -655,7 +655,7 @@ display:
           exposed: true
           expose:
             operator_id: subject_op
-            label: Subject
+            label: Onderwerp
             description: ''
             use_operator: false
             operator: subject_op
@@ -693,7 +693,7 @@ display:
           exposed: true
           expose:
             operator_id: combine_op
-            label: 'Author name'
+            label: 'Naam auteur'
             description: ''
             use_operator: false
             operator: combine_op
@@ -736,7 +736,7 @@ display:
           exposed: true
           expose:
             operator_id: langcode_op
-            label: Language
+            label: Taal
             description: ''
             use_operator: false
             operator: langcode_op
@@ -855,7 +855,7 @@ display:
       show_admin_links: true
       use_more: false
       use_more_always: true
-      use_more_text: more
+      use_more_text: meer
       header: {  }
       footer: {  }
       hide_attachment_summary: false
@@ -872,7 +872,7 @@ display:
       cacheable: false
   page_published:
     id: page_published
-    display_title: 'Published comments'
+    display_title: 'Gepubliceerde reacties'
     display_plugin: page
     position: 1
     display_options:
@@ -883,7 +883,7 @@ display:
       path: admin/content/comment
       menu:
         type: tab
-        title: Comments
+        title: Reacties
         description: 'Comments published'
         weight: 0
         menu_name: admin
@@ -901,7 +901,7 @@ display:
       cacheable: false
   page_unapproved:
     id: page_unapproved
-    display_title: 'Unapproved comments'
+    display_title: 'Niet-goedgekeurde reacties'
     display_plugin: page
     position: 2
     display_options:
@@ -956,7 +956,7 @@ display:
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
-          action_title: Action
+          action_title: Actie
           include_exclude: include
           selected_actions:
             - comment_delete_action
@@ -971,7 +971,7 @@ display:
           entity_type: comment
           entity_field: subject
           plugin_id: field
-          label: Subject
+          label: Onderwerp
           exclude: false
           alter:
             alter_text: false
@@ -1101,7 +1101,7 @@ display:
           entity_type: comment
           entity_field: name
           plugin_id: field
-          label: Author
+          label: Auteur
           exclude: false
           alter:
             alter_text: false
@@ -1165,7 +1165,7 @@ display:
           entity_type: comment
           entity_field: entity_id
           plugin_id: commented_entity
-          label: 'Posted in'
+          label: 'Geplaatst in'
           exclude: false
           alter:
             alter_text: false
@@ -1230,7 +1230,7 @@ display:
           entity_type: comment
           entity_field: changed
           plugin_id: field
-          label: Updated
+          label: Bijgewerkt
           exclude: false
           alter:
             alter_text: false
@@ -1305,7 +1305,7 @@ display:
           admin_label: ''
           entity_type: comment
           plugin_id: entity_operations
-          label: Operations
+          label: Bewerkingen
           exclude: false
           alter:
             alter_text: false
@@ -1469,7 +1469,7 @@ display:
           exposed: true
           expose:
             operator_id: subject_op
-            label: Subject
+            label: Onderwerp
             description: ''
             use_operator: false
             operator: subject_op
@@ -1550,7 +1550,7 @@ display:
           exposed: true
           expose:
             operator_id: langcode_op
-            label: Language
+            label: Taal
             description: ''
             use_operator: false
             operator: langcode_op
@@ -1588,7 +1588,7 @@ display:
       path: admin/content/comment/approval
       menu:
         type: tab
-        title: 'Unapproved comments'
+        title: 'Niet-goedgekeurde reacties'
         description: 'Comments unapproved'
         weight: 1
         menu_name: admin

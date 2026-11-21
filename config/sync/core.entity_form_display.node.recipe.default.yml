@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.recipe.field_ingredients
     - field.field.node.recipe.field_main_image
     - field.field.node.recipe.field_submitted_by
+    - field.field.node.recipe.field_test
     - image.style.thumbnail
     - node.type.recipe
   module:
@@ -57,6 +58,14 @@ content:
     weight: 124
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_test:
+    type: string_textfield
+    weight: 125
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   langcode:
     type: language_select

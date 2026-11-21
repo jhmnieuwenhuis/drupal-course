@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.recipe.field_ingredients
     - field.field.node.recipe.field_main_image
     - field.field.node.recipe.field_submitted_by
+    - field.field.node.recipe.field_test
     - node.type.recipe
   module:
     - text
@@ -34,4 +35,5 @@ hidden:
   field_ingredients: true
   field_main_image: true
   field_submitted_by: true
+  field_test: true
   langcode: true

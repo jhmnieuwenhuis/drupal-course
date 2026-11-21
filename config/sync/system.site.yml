@@ -1,10 +1,10 @@
 _core:
   default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
-langcode: en
+langcode: nl
 uuid: cdf89b5b-36e1-42ba-8d31-ee37e6a54f65
-name: 'Anytown Farmers Market'
+name: 'Anytown Farmers Market xx'
 mail: landschapoost@gmail.com
-slogan: 'Farm Fresh Food'
+slogan: 'Vers Voedsel Boerderij aangepast'
 page:
   403: ''
   404: ''

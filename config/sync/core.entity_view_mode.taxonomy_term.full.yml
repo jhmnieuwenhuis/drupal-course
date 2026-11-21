@@ -1,5 +1,5 @@
 uuid: 215e99b7-38cc-4f0e-89e1-6cd42e544095
-langcode: en
+langcode: nl
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: iukUENpf8CFvjZbGGacKX_Ges0-lU9z6zvsd32P6kbo
 id: taxonomy_term.full
-label: 'Taxonomy term page'
+label: 'Pagina met taxonomietermen'
 description: ''
 targetEntityType: taxonomy_term
 cache: true

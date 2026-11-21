@@ -1,5 +1,5 @@
 uuid: 510f1d75-e573-4624-b0b9-a7bfb84a715f
-langcode: en
+langcode: nl
 status: true
 dependencies:
   config:
@@ -38,7 +38,7 @@ settings:
     ckeditor5_codeBlock:
       languages:
         -
-          label: 'Plain text'
+          label: 'Platte tekst'
           language: plaintext
         -
           label: C
@@ -71,7 +71,7 @@ settings:
           label: Python
           language: python
         -
-          label: Ruby
+          label: Robijnrood
           language: ruby
         -
           label: TypeScript

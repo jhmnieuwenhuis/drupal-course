@@ -1,5 +1,5 @@
 uuid: 0ac640bb-73c3-40d8-bc31-79acb12e8395
-langcode: en
+langcode: nl
 status: true
 dependencies:
   module:
@@ -18,7 +18,7 @@ base_field: cid
 display:
   default:
     id: default
-    display_title: Default
+    display_title: Standaard
     display_plugin: default
     position: 0
     display_options:
@@ -158,7 +158,7 @@ display:
           plugin_id: text_custom
           label: ''
           empty: true
-          content: 'No comments available.'
+          content: 'Geen reacties beschikbaar.'
           tokenize: false
       sorts:
         created:
@@ -252,13 +252,13 @@ display:
       tags: {  }
   block_1:
     id: block_1
-    display_title: Block
+    display_title: Blok
     display_plugin: block
     position: 1
     display_options:
       display_extenders: {  }
       block_description: 'Recent comments'
-      block_category: 'Lists (Views)'
+      block_category: 'Lijsten (Views)'
       allow:
         items_per_page: true
     cache_metadata:

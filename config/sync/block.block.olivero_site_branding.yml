@@ -1,5 +1,5 @@
 uuid: e70f0175-7fae-40f0-85b7-353a5cc4ab2d
-langcode: en
+langcode: nl
 status: true
 dependencies:
   module:
@@ -16,7 +16,7 @@ provider: null
 plugin: system_branding_block
 settings:
   id: system_branding_block
-  label: 'Site branding'
+  label: 'Branding van de website'
   label_display: '0'
   provider: system
   use_site_logo: true
