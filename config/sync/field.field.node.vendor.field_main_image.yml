@@ -6,14 +6,7 @@ dependencies:
     - field.storage.node.field_main_image
     - node.type.vendor
   module:
-    - content_translation
     - image
-third_party_settings:
-  content_translation:
-    translation_sync:
-      alt: alt
-      title: title
-      file: '0'
 id: node.vendor.field_main_image
 field_name: field_main_image
 entity_type: node
@@ -31,7 +24,7 @@ settings:
   file_extensions: 'png gif jpg jpeg webp'
   max_filesize: '5 MB'
   max_resolution: ''
-  min_resolution: 600x594
+  min_resolution: 600x600
   alt_field: true
   alt_field_required: true
   title_field: false
